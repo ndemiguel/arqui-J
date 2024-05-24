@@ -1,0 +1,5 @@
+com:	ld	>0x10F	#carga la temperatura
+
+	.org	0x10F
+	.word	25
+	.end	com
